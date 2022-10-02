@@ -1,0 +1,17 @@
+.draggable-element {
+  display: flex;
+  text-align: center;
+  padding: 50px 20px;
+  border: 3px solid purple;
+  border-radius: 5px;
+  width: 150px;
+  background-color: pink;
+  color: white;
+  cursor: grab;
+
+  &:active {
+    box-shadow: 0 8px 65px 0 purple;
+    color: purple;
+    cursor: grabbing;
+  }
+}

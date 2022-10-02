@@ -1,0 +1,5 @@
+<ul cdkDropList (cdkDropListDropped)="drop($event)">
+  <li *ngFor="let line of song" cdkDrag>
+    {{line}}
+  </li>
+</ul>
