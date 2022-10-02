@@ -24,8 +24,8 @@ jobs:
         npm install
         npm run-script deploy
     - name: Deploy
-      uses: Peanuts-83/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: dist/angular-ci-cd
+        FOLDER: dist
