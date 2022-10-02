@@ -1,6 +1,12 @@
 # CDK
 
+Demo-test with Angular CDK.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+
+# Build & Deploy
+
+Uses auto build/deploy capacities of github Actions with .github/main.yml script.
+More infos on this blog: [https://betterprogramming.pub/build-and-deploy-angular-apps-in-github-pages-using-github-actions-d6da0efe293d](https://betterprogramming.pub/build-and-deploy-angular-apps-in-github-pages-using-github-actions-d6da0efe293d)
 
 ## Development server
 
